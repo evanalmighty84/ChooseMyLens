@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Hoya Lens Selector Test</title>
+	<script type='text/javascript' src='swfobject.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />        
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+<div id="site">
+    <div id="flash">
+        <a href="http://get.adobe.com/flashplayer/" style="color:#000000;">Please upgrade your flash player to version 10.</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+	var fo = new SWFObject("hoyaLoader.swf", "flashPiece", "960", "660", "10,0,0", "#000000");
+	fo.addVariable('lid', "1234");
+	fo.addVariable('gid', "5678");
+	fo.write("flash");
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<colors>
+  <tint id="Light Brown">
+    <hex>8B7355</hex>
+
+  </tint>
+  <tint id="Dark Brown">
+    <hex>5C4033</hex>
+
+  </tint>
+  <tint id="Green">
+    <hex>3B5E2B</hex>
+
+  </tint>
+  <tint id="Violet">
+    <hex>BF5FFF</hex>
+
+  </tint>
+  <tint id="Light Grey">
+    <hex>C0C0C0</hex>
+
+  </tint>
+  <tint id="Dark Grey">
+    <hex>4F4F4F</hex>
+
+  </tint>
+  <tint id="Yellow">
+    <hex>FBEC5D</hex>
+
+  </tint>
+  <tint id="Orange">
+    <hex>FF8000</hex>
+
+  </tint>
+  <tint id="Red">
+    <hex>EE0000</hex>
+
+  </tint>
+  <tint id="Amber">
+    <hex>FFC125</hex>
+
+  </tint>
+  <tint id="Blue">
+    <hex>87CEFA</hex>
+  </tint>
+</colors>

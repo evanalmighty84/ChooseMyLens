@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<copy>
+  <lens>
+    <materials>
+      <material id="1.7">
+        this is copy for the 1.7 material
+      </material>
+      <material id="1.67">
+        this is copy for the 1.67 material
+      </material>
+      <material id="Phoenix">
+        this is copy for the Phoenix material
+      </material>
+    </materials>
+    <designs>
+      <design id="Nulux">
+        this is copy for the nulux design
+      </design>
+      <design id="Nulux EP">
+        this is copy for the nulux design
+      </design>
+      <design id="Lifestyle">
+        this is copy for the Lifestyle design
+      </design>
+      <design id="Summit">
+        this is copy for the Lifestyle design
+      </design>
+    </designs>
+    <design id="GP Wide">
+      this is copy for the Lifestyle design
+    </design>
+    <treatments>
+      <treament id="Polorized">
+        this is copy for the polorized treatment
+      </treament>
+      <treament id="Anti-Reflective">
+        this is copy for the polorized treatment
+      </treament>
+      <treament id="View Protect">
+        this is copy for the polorized treatment
+      </treament>
+      <treament id="Photochromic">
+        this is copy for the polorized treatment
+      </treament>
+      <treament id="Sun Glasses Tint">
+        this is copy for the polorized treatment
+      </treament>
+    </treatments>
+  </lens>
+  <specilties>
+    <sport id="Golf">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Biking">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Boating">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Fishing">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Hiking">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Hunting">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Running">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Skiing">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the golf design
+      </design>
+      <material>
+        this is copy for the golf material
+      </material>
+      <treatment>
+        this is copy for the golf treatments
+      </treatment>
+    </sport>
+    <sport id="Tennis">
+      <tints>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+        <tint id="Sunflower">
+          <hex>ffffff</hex>
+          <copy>copy copy copy</copy>
+        </tint>
+      </tints>
+      <design>
+        this is copy text for the tennis design
+      </design>
+      <material>
+        this is copy for the tennis material
+      </material>
+      <treatment>
+        this is copy for the tennis treatments
+      </treatment>
+    </sport>
+  </specilties>
+</copy>

@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<copy>
+  <lens>
+	<primaryTitle>
+		YOUR PRIMARY LENS RECOMMENDATION
+	</primaryTitle>
+	<primaryCopy>
+		You will wear your primary lenses the majority of the time. Factors like your profession, as well as your prescription, help determine your primary lens.
+	</primaryCopy>
+	
+	<complementaryTitle>
+		YOUR COMPLEMENTARY LENS RECOMMENDATION
+	</complementaryTitle>
+	<complementaryCopy>
+		Your complementary lenses are designed to help you keep your focus when shifting to a different environment. Daily activities like driving determine your complementary lens.
+	</complementaryCopy>
+	
+	<specialtyTitle>
+		YOUR SPECIALTY LENS RECOMMENDATION
+	</specialtyTitle>
+	<specialtyCopy>
+		Your specialty lenses give you the vision you need to pursue your passion. Pastimes like golf or skiing determine your specialty lens.
+	</specialtyCopy>
+
+	<certs>
+		<cert>
+			<imageURL>cert1.png</imageURL>
+			<titleText>HOYA Certified Technology Expert</titleText>
+			<copyText>A professional eye care practice that has demonstrated product expertise in prescribing and incorporating HOYA's state of the art lens technology.</copyText>
+		</cert>
+		<cert>
+			<imageURL>cert2.png</imageURL>
+			<titleText>HOYA Lens Selector</titleText>
+			<copyText>A professional eye care practice that offers this educational interactive tool helping patients discover the ideal HOYA lens for their lifestyle.</copyText>
+		</cert>
+		<cert>
+			<imageURL>cert3.png</imageURL>
+			<titleText>HOYA Certification #3</titleText>
+			<copyText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at velit erat. Vestibulum placerat condimentum mi in auctor. Phasellus elementum accumsan felis.</copyText>
+		</cert>
+		<cert>
+			<imageURL>cert4.png</imageURL>
+			<titleText>HOYA Certification #4</titleText>
+			<copyText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at velit erat. Vestibulum placerat condimentum mi in auctor. Phasellus elementum accumsan felis.</copyText>
+		</cert>
+		<cert>
+			<imageURL>cert5.png</imageURL>
+			<titleText>HOYA Certification #5</titleText>
+			<copyText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at velit erat. Vestibulum placerat condimentum mi in auctor. Phasellus elementum accumsan felis.</copyText>
+		</cert>
+		<cert>
+			<imageURL>cert_coupon.png</imageURL>
+			<titleText>HOYA Coupon Program</titleText>
+			<copyText>This HOYA preferred provider is participating in the HOYA Coupon Program and consumer promotion - which gives eye care patients the chance to win a pair of HOYA lenses and a chance to receive a coupon toward a pair of HOYA lenses. </copyText>
+		</cert>
+	</certs>
+	
+
+    <primaryImages>
+      <image>images/primary_bedroom.jpg</image>
+      <image>images/primary_classroom2.jpg</image>
+      <image>images/primary_livingroom.jpg</image>
+      <image>images/primary_office.jpg</image>
+      <image>images/primary_store.jpg</image>
+    </primaryImages>
+    <primaryThumbs>
+      <image>images/primary_bedroom_thumb.jpg</image>
+      <image>images/primary_classroom1_thumb.jpg</image>
+      <image>images/primary_livingroom_thumb.jpg</image>
+      <image>images/primary_office_thumb.jpg</image>
+      <image>images/primary_store_thumb.jpg</image>
+    </primaryThumbs>
+
+    <complementaryImages>
+      <image>images/comp_road5.jpg</image>
+      <image>images/comp_road3.jpg</image>
+      <image>images/comp_road4.jpg</image>
+      <image>images/comp_trees.jpg</image>
+      <image>images/comp_water.jpg</image>
+    </complementaryImages>
+    <complementaryThumbs>
+      <image>images/comp_road5_thumb.jpg</image>
+      <image>images/comp_road3_thumb.jpg</image>
+      <image>images/comp_road4_thumb.jpg</image>
+      <image>images/comp_trees_thumb.jpg</image>
+      <image>images/comp_water_thumb.jpg</image>
+    </complementaryThumbs>
+
+    <designs>
+      <design id="Nulux">
+        <header>The HOYA Nulux Lens</header>
+        <subheader>Clear vision from edge to edge</subheader>
+        <image></image>
+        <copy>
+          For higher prescriptions this design curves the front of the lens as well as the back in order to offset optical distortions that typically reduce the quality of vision, and expanding visual clarity particularly at the edges of the lens. These slight curvature changes on the front surface also significantly reduce the bulge or thickness of a plus power lens and reduce magnification of the wearer's eyes.
+        </copy>
+      </design>
+      <design id="iD Single Vision">
+        <header>iD Single Vision</header>
+        <subheader>Expanding the clarity of your vision</subheader>
+        <image></image>
+        <copy>
+          This design provides clear vision from edge to edge of the lens neutralizing distortions. Applying the prescription to both sides of the lens shapes them to the specific rotation of your eyes to account for actual physiological functions like eye movement so you can focus in all directions.
+        </copy>
+      </design>
+      <design id="iD Lens Technology">
+        <header>iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          For personalized vision correction, this technology takes progressive lens design to a new level. The design is calculated based on eye rotation to provide a noticeably crisp view in every direction. iD Lens Technology lenses provide a more personalized vision correction than the previous generation progressive designs.
+        </copy>
+      </design>
+      <design id="Summit">
+        <header>The HOYA Summit Lens</header>
+        <subheader>Our clearest, most comfortable lens</subheader>
+        <image></image>
+        <copy>
+          Using a patented 3-D virtual computer model to evaluate multiple visual criteria; prescription power (plus or minus), how distance from lens to eye impacts focal powers, how frame and lens are positioned relative to the eye, depth perception, and how eyes work together. This delivers the clearest, most comfortable vision possible with traditional fabrication technology.
+        </copy>
+      </design>
+      <design id="TACT">
+        <header>The HOYA TACT Lens</header>
+        <subheader>Clarity at close and long range</subheader>
+        <image></image>
+        <copy>
+          For many of us, staring at a computer screen has become an occupational health hazard. Physicians have even identified a condition called Computer Vision Syndrome (CVS), with symptoms ranging from headaches and double vision to dry eyes and sensitivity to light. Tact lenses are specifically designed to minimize the effects of CVS, including eye fatigue, dry eyes, and neck pain caused by working at the computer.
+        </copy>
+      </design>
+    </designs>
+
+    <materials>
+      <material id="1.7">
+        <header>1.7</header>
+        <subheader>Our thinnest lens composite</subheader>
+        <image></image>
+        <copy>
+          The better your lens material is designed, the better the combination of thickness, clarity and durability. This material is our thinnest lens composite, formulated specifically to satisfy your need for good looks and durability. It's an ideal material for rimless mounting frames. This lens material, in combination with a well-chosen frame, will give you the most appealing in terms of appearance and comfort.
+        </copy>
+      </material>
+      <material id="1.67">
+        <header>1.67</header>
+        <subheader>Thinner, stronger and more optically pure</subheader>
+        <image></image>
+        <copy>
+          The completely re-engineered properties of this material revolutionizes this category of ultra-high index composites. The result is a lens that is thinner, more elastic, stronger and more optically pure than any other of this material in existence. Your prescription power and this lens material are a perfect match.
+        </copy>
+      </material>
+      <material id="1.60">
+        <header>1.60</header>
+        <subheader>Thinner, stronger and more optically pure</subheader>
+        <image></image>
+        <copy>
+          The completely re-engineered properties of this material revolutionizes this category of ultra-high index composites. The result is a lens that is thinner, more elastic, stronger and more optically pure than any other of this material in existence. Your prescription power and this lens material are a perfect match.
+        </copy>
+      </material>
+      <material id="Phoenix">
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          This is the lightest plastic lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance of this material exceeds FDA standards for industrial safety eyewear, providing superior safety for you even in your best day or evening wear. Phoenix plastic comes systematically with an ultra-tough scratch resistant coating and also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+    </materials>
+
+    <treatments>
+      <treatment id="SHV EX3">
+        <header>SHV EX3</header>
+        <subheader>Eliminates glare and resists scratches</subheader>
+        <image></image>
+        <copy>
+          The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+        </copy>
+      </treatment>
+      <treatment id="Polarized">
+        <header>Polarization</header>
+        <subheader>Eliminate reflected light</subheader>
+        <image>images/HOYAPolarizedImage.jpg</image>
+        <copy>
+          Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+        </copy>
+      </treatment>
+      <treatment id="Photochromic">
+        <header>Photochromic</header>
+        <subheader>Automatically dims when outdoors</subheader>
+        <image></image>
+        <copy>
+          Every time you go outside it puts a strain on your eyes because they're forced to instantly adjust to brighter light. Photochromic lenses automatically darken when you step outside, and constantly adjust to the natural light of the day while providing constant UV light protection.  This lens treatment is available in Transitions, the world leader in advanced photochromic technology. We offer a complete selection of photochromic lens materials, colors and lens designs.
+        </copy>
+      </treatment>
+
+      <treatment id="Tint">
+        <header>Sunglass Tint</header>
+        <subheader>Eye protection from damaging UV rays</subheader>
+        <image></image>
+        <copy>
+          Many people find direct sunlight too bright to be comfortable. During outdoor activities, the human eye can receive more light than usual. Healthcare professionals recommend eye protection whenever outside to protect the eyes from ultraviolet radiation, which can cause serious eye problems. The proper lens tint prevents strong light and UV rays from penetrating the eyes. Tint can make reading or working at a computer more comfortable, reduce glare when driving, and allow more visual clarity of objects. In addition to choice of color, the intensity of a tint can vary the result of your vision. Tint intensity is expressed as a percentage of the light it blocks. Because white light is made up of many colors, picking tints carefully can improve the performance of your eyewear in specific environments and activities.
+        </copy>
+      </treatment>
+    </treatments>
+  </lens>
+
+  <specialties>
+    <sport id="Golfing">
+      <image>images/spec_golf_none.jpg</image>
+      <tints>
+        <tint id="Light Brown">
+          <hex>8B7355</hex>
+          <image>images/spec_golf_LTBROWN.png</image>
+          <copy>
+            Light Brown improves contrast and depth perception and is good for sunny to bright sunny days.
+          </copy>
+        </tint>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_golf_DKBROWN.png</image>
+          <copy>
+            Dark Brown provides excellent contrast and improves visual acuity and depth perception. Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <tint id="Green">
+          <hex>3B5E2B</hex>
+          <image>images/spec_golf_GREEN.png</image>
+          <copy>
+            Green provide slight contrast, maintains true color balance and is a good choice for varying lighting conditions.
+          </copy>
+        </tint>
+        <tint id="Violet">
+          <hex>BF5FFF</hex>
+          <image>images/spec_golf_VIOLET.png</image>
+          <copy>
+            Violet increases contrast and dampens certain backgrounds.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header> iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          In golf the clarity of the full range of your vision as well as your peripheral vision are critically important. The design technology of this lens determines the level of optical performance. For personalized vision correction, this technology uses a progressive design based on eye rotation. The prescription is partially shaped on the front and fully customized on the back to provide a noticeably clearer view in every direction.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          The material is the foundation of a lens. Thickness, weight, and impact resistance are all variables to consider. A specific gravity of 1.1 grams per cubic centimeter makes this the lightest lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance quality of this material far exceeds FDA standards for industrial safety eyewear, providing superior safety for the wearer. It has superior tensile strength that is 6 times stronger than standard plastic making it 60 times more impact resistant than standard plastic lenses, which is ideal for drill-mount frames. The material also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarized</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Biking">
+      <image>images/spec_bike_none.jpg</image>
+      <tints>
+        <tint id="Light Brown">
+          <hex>8B7355</hex>
+          <image>images/spec_bike_LTBROWN.png</image>
+          <copy>
+            Light Brown improves contrast and depth perception and is good for sunny to bright sunny days.
+          </copy>
+        </tint>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_bike_DKBROWN.png</image>
+          <copy>
+            Dark Brown provides excellent contrast and improves visual acuity and depth perception. Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <tint id="Green">
+          <hex>3B5E2B</hex>
+          <image>images/spec_bike_GREEN.png</image>
+          <copy>
+            Green has a slightly better contrast than a grey colored lens, but is not considered a high contrast lens. Green maintains true color balance and is a good choice for varying lighting conditions.
+          </copy>
+        </tint>
+        <tint id="Light Grey">
+          <hex>C0C0C0</hex>
+          <image>images/spec_bike_LTGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+          </copy>
+        </tint>
+        <tint id="Dark Grey">
+          <hex>4F4F4F</hex>
+          <image>images/spec_bike_DKGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations.
+          </copy>
+        </tint>
+        <tint id="Yellow">
+          <hex>FBEC5D</hex>
+          <image>images/spec_bike_YELLOW.png</image>
+          <copy>
+            Yellow provides the maximum light transmission of any polarized lens. It increases contrast and filters blue light and is used in low light conditions such as overcast or cloudy days.
+          </copy>
+        </tint>
+        <tint id="Orange">
+          <hex>FF8000</hex>
+          <image>images/spec_bike_ORANGE.png</image>
+          <copy>
+            Increases contrast and blocks blue light. Best in overcast or partly cloudy conditions.
+          </copy>
+        </tint>
+        <tint id="Red">
+          <hex>EE0000</hex>
+          <image>images/spec_bike_RED.png</image>
+          <copy>
+            Red is a vibrant color that increases contrast.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header>The iD Single Vision Lens</header>
+        <subheader>Expanding the clarity of your vision</subheader>
+        <image></image>
+        <copy>
+          This design provides clear vision from edge to edge of the lens neutralizing distortions. Applying the prescription to both sides of the lens shapes them to the specific rotation of your eyes to account for actual physiological functions like eye movement so you can focus in all directions.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          This is the lightest plastic lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance of this material exceeds FDA standards for industrial safety eyewear, providing superior safety for you even in your best day or evening wear. Phoenix plastic comes systematically with an ultra-tough scratch resistant coating and also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarization</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Boating">
+      <image>images/spec_boating_none.jpg</image>
+      <tints>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_boating_DKBROWN.png</image>
+          <copy>
+            Brown provides excellent contrast and improves visual acuity and depth perception. Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <!--
+		<tint id="Light Grey">
+			<hex>C0C0C0</hex>
+			<image>images/spec_boating_LTGREY.png</image>
+			<copy>
+				Grey reduces the maximum amount of visible light and allows for true color recognition. Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+			</copy>
+		</tint>
+		-->
+        <tint id="Dark Grey">
+          <hex>4F4F4F</hex>
+          <image>images/spec_boating_DKGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header> iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          In golf the clarity of the full range of your vision as well as your peripheral vision are critically important. The design technology of this lens determines the level of optical performance. For personalized vision correction, this technology uses a progressive design based on eye rotation. The prescription is partially shaped on the front and fully customized on the back to provide a noticeably clearer view in every direction.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          The material is the foundation of a lens. Thickness, weight, and impact resistance are all variables to consider. A specific gravity of 1.1 grams per cubic centimeter makes this the lightest lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance quality of this material far exceeds FDA standards for industrial safety eyewear, providing superior safety for the wearer. It has superior tensile strength that is 6 times stronger than standard plastic making it 60 times more impact resistant than standard plastic lenses, which is ideal for drill-mount frames. The material also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Fishing">
+      <image>images/spec_fish_none.jpg</image>
+      <tints>
+        <tint id="Light Brown">
+          <hex>8B7355</hex>
+          <image>images/spec_fish_LTBROWN.png</image>
+          <copy>
+            Light Brown improves contrast and depth perception and is good for sunny to bright sunny days.
+          </copy>
+        </tint>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_fish_DKBROWN.png</image>
+          <copy>
+            Dark Brown provides excellent contrast and improves visual acuity and depth perception. Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <tint id="Light Grey">
+          <hex>C0C0C0</hex>
+          <image>images/spec_fish_LTGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+          </copy>
+        </tint>
+        <tint id="Dark Grey">
+          <hex>4F4F4F</hex>
+          <image>images/spec_fish_DKGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations.
+          </copy>
+        </tint>
+        <tint id="Amber">
+          <hex>FFC125</hex>
+          <image>images/spec_fish_AMBER.png</image>
+          <copy>
+            Amber is recommended when sharpness, acuity and contrast are needed and to block high intensity blue lighting such as UV. Beacuse it filters out hazy light that is hard on the eyes, it is good for dawn/dusk, hazy, overcast or foggy days.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header> iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          In golf the clarity of the full range of your vision as well as your peripheral vision are critically important. The design technology of this lens determines the level of optical performance. For personalized vision correction, this technology uses a progressive design based on eye rotation. The prescription is partially shaped on the front and fully customized on the back to provide a noticeably clearer view in every direction.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          The material is the foundation of a lens. Thickness, weight, and impact resistance are all variables to consider. A specific gravity of 1.1 grams per cubic centimeter makes this the lightest lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance quality of this material far exceeds FDA standards for industrial safety eyewear, providing superior safety for the wearer. It has superior tensile strength that is 6 times stronger than standard plastic making it 60 times more impact resistant than standard plastic lenses, which is ideal for drill-mount frames. The material also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarization</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Hiking">
+      <image>images/spec_hiking_none.jpg</image>
+      <tints>
+        <tint id="Green">
+          <hex>3B5E2B</hex>
+          <image>images/spec_hiking_GREEN.png</image>
+          <copy>
+            Green has a slightly better contrast than the gray colored lens, but is not considered a high contrast lens. Green maintains true color balance and is a good choice for varying lighting conditions.
+          </copy>
+        </tint>
+        <tint id="Light Grey">
+          <hex>C0C0C0</hex>
+          <image>images/spec_hiking_LTGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+          </copy>
+        </tint>
+        <tint id="Dark Grey">
+          <hex>4F4F4F</hex>
+          <image>images/spec_hiking_DKGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header> iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          In golf the clarity of the full range of your vision as well as your peripheral vision are critically important. The design technology of this lens determines the level of optical performance. For personalized vision correction, this technology uses a progressive design based on eye rotation. The prescription is partially shaped on the front and fully customized on the back to provide a noticeably clearer view in every direction.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          The material is the foundation of a lens. Thickness, weight, and impact resistance are all variables to consider. A specific gravity of 1.1 grams per cubic centimeter makes this the lightest lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance quality of this material far exceeds FDA standards for industrial safety eyewear, providing superior safety for the wearer. It has superior tensile strength that is 6 times stronger than standard plastic making it 60 times more impact resistant than standard plastic lenses, which is ideal for drill-mount frames. The material also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarization</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Hunting">
+      <image>images/spec_hunt_none.jpg</image>
+      <tints>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_hunt_DKBROWN.png</image>
+          <copy>
+            Brown provides excellent contrast and improves visual acuity and depth perception. Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <tint id="Green">
+          <hex>3B5E2B</hex>
+          <image>images/spec_hunt_GREEN.png</image>
+          <copy>
+            Green has a slightly better contrast than the gray colored lens, but is not considered a high contrast lens.  Green maintains true color balance and is a good choice for varying lighting conditions.
+          </copy>
+        </tint>
+        <tint id="Orange">
+          <hex>FF8000</hex>
+          <image>images/spec_hunt_ORANGE.png</image>
+          <copy>
+            Increases contrast and blocks blue light. Best in overcast or partly cloudy conditions.
+          </copy>
+        </tint>
+        <tint id="Red">
+          <hex>EE0000</hex>
+          <image>images/spec_hunt_RED.png</image>
+          <copy>
+            Red is a vibrant color that increases contrast.
+          </copy>
+        </tint>
+        <tint id="Yellow">
+          <hex>FBEC5D</hex>
+          <image>images/spec_hunt_YELLOW.png</image>
+          <copy>
+            Yellow provides the maximum light transmission of any polarized lens. It increases contrast and filters blue light and is used in low light conditions such as overcast or cloudy days.
+          </copy>
+        </tint>
+        <!--
+				<tint id="Light Grey">
+					<hex>C0C0C0</hex>
+					<image>images/spec_hunt_LTGREY.png</image>
+					<copy>
+						Grey reduces the maximum amount of visible light and allows for true color recognition.  Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+					</copy>
+				</tint>
+				<tint id="Dark Grey">
+					<hex>4F4F4F</hex>
+					<image>images/spec_hunt_DKGREY.png</image>
+					<copy>
+						Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations. 
+					</copy>
+				</tint>
+				<tint id="Blue">
+					<hex>87CEFA</hex>
+					<image>images/spec_hunt_BLUE.png</image>
+					<copy>
+						Blue is used in partly cloudy to sunny conditions.
+					</copy>
+				</tint>
+				<tint id="Amber">
+					<hex>FFC125</hex>
+					<image>images/spec_hunt_AMBER.png</image>
+					<copy>
+						Amber is recommended when sharpness, acuity and contrast are needed and to block high intensity blue lighting such as UV. Beacuse it filters out hazy light that is hard on the eyes, it is good for dawn/dusk, hazy, overcast or foggy days.
+					</copy>
+				</tint>
+				-->
+      </tints>
+      <design>
+        <header> iD Lens Technology</header>
+        <subheader>Personalized vision correction</subheader>
+        <image></image>
+        <copy>
+          In golf the clarity of the full range of your vision as well as your peripheral vision are critically important. The design technology of this lens determines the level of optical performance. For personalized vision correction, this technology uses a progressive design based on eye rotation. The prescription is partially shaped on the front and fully customized on the back to provide a noticeably clearer view in every direction.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          The material is the foundation of a lens. Thickness, weight, and impact resistance are all variables to consider. A specific gravity of 1.1 grams per cubic centimeter makes this the lightest lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance quality of this material far exceeds FDA standards for industrial safety eyewear, providing superior safety for the wearer. It has superior tensile strength that is 6 times stronger than standard plastic making it 60 times more impact resistant than standard plastic lenses, which is ideal for drill-mount frames. The material also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Running">
+      <image>images/spec_run_none.jpg</image>
+      <tints>
+        <tint id="Green">
+          <hex>3B5E2B</hex>
+          <image>images/spec_run_GREEN.png</image>
+          <copy>
+            Green has a slightly better contrast than the gray colored lens, but is not considered a high contrast lens. Green maintains true color balance and is a good choice for varying lighting conditions.
+          </copy>
+        </tint>
+        <tint id="Light Grey">
+          <hex>C0C0C0</hex>
+          <image>images/spec_run_LTGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Light grey transmits colors evenly and allows for true color recognition and is good for partly sunnny days.
+          </copy>
+        </tint>
+        <tint id="Dark Grey">
+          <hex>4F4F4F</hex>
+          <image>images/spec_run_DKGREY.png</image>
+          <copy>
+            Grey reduces the maximum amount of visible light and allows for true color recognition. Dark grey is good for bright sunny days and heavy glare situations.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header>The iD Single Vision Lens</header>
+        <subheader>Expanding the clarity of your vision</subheader>
+        <image></image>
+        <copy>
+          This design provides clear vision from edge to edge of the lens neutralizing distortions. Applying the prescription to both sides of the lens shapes them to the specific rotation of your eyes to account for actual physiological functions like eye movement so you can focus in all directions.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          This is the lightest plastic lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance of this material exceeds FDA standards for industrial safety eyewear, providing superior safety for you even in your best day or evening wear. Phoenix plastic comes systematically with an ultra-tough scratch resistant coating and also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarization</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Skiing">
+      <image>images/spec_skiing_none.jpg</image>
+      <tints>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_skiing_brown.png</image>
+          <copy>
+            Brown provides excellent contrast and improves visual acuity and depth perception.  Good for bright sunny days and varying conditions and reduces blue light.
+          </copy>
+        </tint>
+        <tint id="Yellow">
+          <hex>FBEC5D</hex>
+          <image>images/spec_skiing_yellow.png</image>
+          <copy>
+            Yellow provides the maximum light transmission of any polarized lens. It increases contrast and filters blue light and is used in low light conditions such as overcast or cloudy days.
+          </copy>
+        </tint>
+        <tint id="Orange">
+          <hex>FF8000</hex>
+          <image>images/spec_skiing_orange.png</image>
+          <copy>
+            Orange increases contrast and blocks blue light. Best in overcast or partly cloudy conditions.
+          </copy>
+        </tint>
+        <tint id="Red">
+          <hex>EE0000</hex>
+          <image>images/spec_skiing_red.png</image>
+          <copy>
+            Red is a vibrant color that increases contrast.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header>The iD Single Vision Lens</header>
+        <subheader>Expanding the clarity of your vision</subheader>
+        <image></image>
+        <copy>
+          This design provides clear vision from edge to edge of the lens neutralizing distortions. Applying the prescription to both sides of the lens shapes them to the specific rotation of your eyes to account for actual physiological functions like eye movement so you can focus in all directions.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          This is the lightest plastic lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance of this material exceeds FDA standards for industrial safety eyewear, providing superior safety for you even in your best day or evening wear. Phoenix plastic comes systematically with an ultra-tough scratch resistant coating and also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+
+    <sport id="Tennis">
+      <image>images/spec_tennis_none.jpg</image>
+      <tints>
+        <tint id="Dark Brown">
+          <hex>5C4033</hex>
+          <image>images/spec_tennis_DKBROWN.png</image>
+          <copy>
+            Brown improves contrast and depth perception and is good for sunny to bright sunny days.
+          </copy>
+        </tint>
+        <tint id="Yellow">
+          <hex>FBEC5D</hex>
+          <image>images/spec_tennis_YELLOW.png</image>
+          <copy>
+            Yellow provides the maximum light transmission of any polarized lens. It increases contrast and filters blue light and is used in low light conditions such as overcast or cloudy days.
+          </copy>
+        </tint>
+        <tint id="Orange">
+          <hex>FF8000</hex>
+          <image>images/spec_tennis_ORANGE.png</image>
+          <copy>
+            Increases contrast and blocks blue light.  Best in overcast or partly cloudy conditions.
+          </copy>
+        </tint>
+        <tint id="Blue">
+          <hex>87CEFA</hex>
+          <image>images/spec_tennis_LTBLUE.png</image>
+          <copy>
+            Blue is used in partly cloudy to sunny conditions.
+          </copy>
+        </tint>
+      </tints>
+      <design>
+        <header>The iD Single Vision Lens</header>
+        <subheader>Expanding the clarity of your vision</subheader>
+        <image></image>
+        <copy>
+          This design provides clear vision from edge to edge of the lens neutralizing distortions. Applying the prescription to both sides of the lens shapes them to the specific rotation of your eyes to account for actual physiological functions like eye movement so you can focus in all directions.
+        </copy>
+      </design>
+      <material>
+        <header>Phoenix</header>
+        <subheader>Superior strength and UV protection</subheader>
+        <image></image>
+        <copy>
+          This is the lightest plastic lens material in the world; 19% lighter than standard plastic and up to 8% lighter than polycarbonate. The impact resistance of this material exceeds FDA standards for industrial safety eyewear, providing superior safety for you even in your best day or evening wear. Phoenix plastic comes systematically with an ultra-tough scratch resistant coating and also features built-in 100% protection against UV-A and UV-B rays.
+        </copy>
+      </material>
+      <treatment>
+        <treat>
+          <header>SHV EX3</header>
+          <subheader>Eliminates glare and resists scratches</subheader>
+          <image></image>
+          <copy>
+            The best anti-reflective in the world just got extreme!  Sharper vision and elimination of glare reduces eye fatigue and improves vision both in artificial office light and for night driving.  Harder to scratch than glass, maximum scratch resistance ensures clear vision and longer lens life.  Fingerprints, water spots and dirt contribute to diminished view. Since dirt doesn't adhere to our lenses, and they resist fingerprints and water, cleaning is easier and vision is clear and crisp.
+          </copy>
+        </treat>
+        <treat>
+          <header>Polarization</header>
+          <subheader>Eliminate reflected light</subheader>
+          <image>images/HOYAPolarizedImage.jpg</image>
+          <copy>
+            Tinted lenses can't protect you from glare off water surfaces and snow, or even sunlight glinting through a windshield. Only polarized lenses eliminate reflected light before it can reach your eyes. These lenses not only provide 100% UV absorption, they're also remarkably scratch resistant. We incorporate polarizing properties in a natural gray for the optimal color contrast and enhancement. Polarizing single vision and progressive lens designs are both available in our standard plastic or our thinner, more lightweight lens materials.
+          </copy>
+        </treat>
+      </treatment>
+    </sport>
+  </specialties>
+</copy>

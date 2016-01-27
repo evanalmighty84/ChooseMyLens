@@ -1,0 +1,97 @@
+﻿body
+{
+	background-color : #FFFFFF;
+	font-family : Arial;
+	font-size : 12px;
+	color : #000000;
+	text-align : left;
+}
+
+.LensTitle
+{
+	font-weight : bold;
+	color : #554A48;
+}
+
+.LensBrandTitle
+{
+	font-weight : bold;
+	font-size : 24px;
+	color : #0177C1;
+}
+
+.Information
+{
+	font-weight : normal;
+	font-size : 12px;
+	color : #656C74;
+}
+
+.DescriptionTitle
+{
+	font-weight : bold;
+	font-size : 12px;
+	color : #484E55;
+}
+
+.ProviderTitle
+{
+	font-weight : bold;
+	font-size : 12px;
+	color : #484E55;
+}
+
+.ProviderInfo
+{
+	color : #656C74;
+}
+
+.Header
+{
+	background-color : #FFFFFF;
+	vertical-align : middle;
+	text-align : left;
+}
+
+.Footer
+{
+	vertical-align : top;
+	font-weight : normal;
+	font-size : 10px;
+	color : #9CA2A9;
+}
+
+.Columns
+{
+	width : 200px;
+}
+
+.WhiteBackground
+{
+	background-color : #FFFFFF;
+}
+
+.BackgroundTable
+{
+	background-color : #F2F2F2;
+	width : 100%;
+	min-width : 600px;
+	max-width : 800px;
+	margin : top 20 right 20 left 20 bottom 5;
+}
+
+.FooterTable
+{
+	background-color : #FFFFFF;
+	width : 100%;
+	min-width : 600px;
+	max-width : 800px;
+	margin : right 20 left 20 top 5 bottom 10;
+}
+
+.Columns
+{
+	min-width : 150px;
+	max-width : 250px;
+}
+

@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B9AD8FA-0B97-4ED7-A336-9D81AAE77AC8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LensSelector</RootNamespace>
+    <AssemblyName>LensSelector</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ecpredirect.aspx.cs">
+      <DependentUpon>ecpredirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ecpredirect.aspx.designer.cs">
+      <DependentUpon>ecpredirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="End_Session.aspx.cs">
+      <DependentUpon>End_Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="End_Session.aspx.designer.cs">
+      <DependentUpon>End_Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="get_provider.aspx.cs">
+      <DependentUpon>get_provider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="get_provider.aspx.designer.cs">
+      <DependentUpon>get_provider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="get_state.aspx.cs">
+      <DependentUpon>get_state.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="get_state.aspx.designer.cs">
+      <DependentUpon>get_state.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Save_Question.aspx.cs">
+      <DependentUpon>Save_Question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Save_Question.aspx.designer.cs">
+      <DependentUpon>Save_Question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="send_email.aspx.cs">
+      <DependentUpon>send_email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="send_email.aspx.designer.cs">
+      <DependentUpon>send_email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start_Session.aspx.cs">
+      <DependentUpon>Start_Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start_Session.aspx.designer.cs">
+      <DependentUpon>Start_Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print_Results.aspx.cs">
+      <DependentUpon>Print_Results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print_Results.aspx.designer.cs">
+      <DependentUpon>Print_Results.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\print_results.css" />
+    <Content Include="assets\images\head_logo.gif" />
+    <Content Include="assets\images\HOYA_footer_logo.jpg" />
+    <Content Include="assets\images\HOYA_Logo.jpg" />
+    <Content Include="assets\images\poweredByHoya.gif" />
+    <Content Include="assets\js\recomender.js" />
+    <Content Include="colors.xml" />
+    <Content Include="copytext.xml" />
+    <Content Include="crossdomain.xml" />
+    <Content Include="css\resetAll.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="ecpredirect.aspx" />
+    <Content Include="email.html" />
+    <Content Include="emails.html" />
+    <Content Include="End_Session.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="FlashCode\.settings\hoyaContent_publishProfile.xml" />
+    <Content Include="FlashCode\3d\EditedSequence\horizontal_bar\img_bar_1.png" />
+    <Content Include="FlashCode\3d\EditedSequence\horizontal_bar\img_bar_2.png" />
+    <Content Include="FlashCode\3d\EditedSequence\horizontal_bar\img_bar_3.png" />
+    <Content Include="FlashCode\3d\EditedSequence\horizontal_bar\img_bar_4.png" />
+    <Content Include="FlashCode\3d\EditedSequence\horizontal_bar\img_bar_5.png" />
+    <Content Include="FlashCode\3d\EditedSequence\img_container.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link1\img_link1_01.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link1\img_link1_02.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link1\img_link1_03.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link1\img_link1_04.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link2\img_link2_01.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link2\img_link2_02.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link2\img_link2_03.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link2\img_link2_04.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link2\img_link2_05.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_01.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_02.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_03.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_04.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_05.png" />
+    <Content Include="FlashCode\3d\EditedSequence\link3\img_link3_06.png" />
+    <Content Include="FlashCode\3d\EditedSequence\summaryContainer.png" />
+    <Content Include="FlashCode\3d\pg01.html" />
+    <Content Include="FlashCode\3d\pg01.swf" />
+    <Content Include="FlashCode\3d\pg01_30frames.swf" />
+    <Content Include="FlashCode\3d\pg01_Grow.swf" />
+    <Content Include="FlashCode\3d\pg02.html" />
+    <Content Include="FlashCode\3d\pg02.swf" />
+    <Content Include="FlashCode\3d\pg03.html" />
+    <Content Include="FlashCode\3d\pg03.swf" />
+    <Content Include="FlashCode\3d\pg04.html" />
+    <Content Include="FlashCode\3d\pg04.swf" />
+    <Content Include="FlashCode\3d\pg05.swf" />
+    <Content Include="FlashCode\3d\pg08.html" />
+    <Content Include="FlashCode\3d\pg08.swf" />
+    <Content Include="FlashCode\3d\pg09.html" />
+    <Content Include="FlashCode\3d\pg09.swf" />
+    <Content Include="FlashCode\3d\pg11.html" />
+    <Content Include="FlashCode\3d\pg11.swf" />
+    <Content Include="FlashCode\3d\pg13.html" />
+    <Content Include="FlashCode\3d\pg13.swf" />
+    <Content Include="FlashCode\3d\pg14.html" />
+    <Content Include="FlashCode\3d\pg14.swf" />
+    <Content Include="FlashCode\3d\ResultsContainer.html" />
+    <Content Include="FlashCode\3d\ResultsContainer.swf" />
+    <Content Include="FlashCode\flash\swf\css\resetAll.css" />
+    <Content Include="FlashCode\flash\swf\css\styles.css" />
+    <Content Include="FlashCode\flash\swf\hoyaContent.swf" />
+    <Content Include="FlashCode\flash\swf\hoyaLoader.swf" />
+    <Content Include="FlashCode\flash\swf\images\bg.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road1.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road1_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road2_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road3.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road3_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_road4.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_trees.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_trees_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_water.jpg" />
+    <Content Include="FlashCode\flash\swf\images\comp_water_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\HoyaPolarizedImage.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_bedroom.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_bedroom_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_classroom1_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_classroom2.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_livingroom.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_livingroom_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_office.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_office_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_store.jpg" />
+    <Content Include="FlashCode\flash\swf\images\primary_store_thumb.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_DKGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_GREEN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_LTBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_LTGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_ORANGE.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_RED.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_bike_YELLOW.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_boating_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_boating_DKGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_boating_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_AMBER.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_DKGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_LTBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_LTGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_fish_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_golf_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_golf_GREEN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_golf_LTBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_golf_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_golf_VIOLET.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hiking_DKGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hiking_green.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hiking_LTGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hiking_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_GREEN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_GREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_ORANGE.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_RED.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_hunt_YELLOW.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_run_DKGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_run_GREEN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_run_LTGREY.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_run_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_skiing_brown.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_skiing_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_skiing_orange.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_skiing_red.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_skiing_yellow.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_tennis_DKBROWN.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_tennis_LTBLUE.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_tennis_none.jpg" />
+    <Content Include="FlashCode\flash\swf\images\spec_tennis_ORANGE.png" />
+    <Content Include="FlashCode\flash\swf\images\spec_tennis_YELLOW.png" />
+    <Content Include="FlashCode\flash\swf\index.htm" />
+    <Content Include="FlashCode\flash\swf\recomendationSample.swf" />
+    <Content Include="FlashCode\flash\swf\recommendation.xml" />
+    <Content Include="FlashCode\flash\swf\swfconfig.xml" />
+    <Content Include="FlashCode\flash\swf\swfobject.js" />
+    <Content Include="get_provider.aspx" />
+    <Content Include="get_state.aspx" />
+    <Content Include="hoyaContent.swf" />
+    <Content Include="hoyaLoader.swf" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\bkgdlanding.png" />
+    <Content Include="images\btnChooseLens.jpg" />
+    <Content Include="images\cert1.png" />
+    <Content Include="images\cert2.png" />
+    <Content Include="images\cert3.png" />
+    <Content Include="images\cert4.png" />
+    <Content Include="images\cert5.png" />
+    <Content Include="images\cert6.png" />
+    <Content Include="images\cert_coupon.png" />
+    <Content Include="images\comp_road1.jpg" />
+    <Content Include="images\comp_road1_thumb.jpg" />
+    <Content Include="images\comp_road2.jpg" />
+    <Content Include="images\comp_road2_thumb.jpg" />
+    <Content Include="images\comp_road3.jpg" />
+    <Content Include="images\comp_road3_thumb.jpg" />
+    <Content Include="images\comp_road4.jpg" />
+    <Content Include="images\comp_road4_thumb.jpg" />
+    <Content Include="images\comp_road5.jpg" />
+    <Content Include="images\comp_road5_thumb.jpg" />
+    <Content Include="images\comp_trees.jpg" />
+    <Content Include="images\comp_trees_thumb.jpg" />
+    <Content Include="images\comp_water.jpg" />
+    <Content Include="images\comp_water_thumb.jpg" />
+    <Content Include="images\HoyaPolarizedImage.jpg" />
+    <Content Include="images\img_landing.png" />
+    <Content Include="images\primary_bedroom.jpg" />
+    <Content Include="images\primary_bedroom_thumb.jpg" />
+    <Content Include="images\primary_classroom1_thumb.jpg" />
+    <Content Include="images\primary_classroom2.jpg" />
+    <Content Include="images\primary_livingroom.jpg" />
+    <Content Include="images\primary_livingroom_thumb.jpg" />
+    <Content Include="images\primary_office.jpg" />
+    <Content Include="images\primary_office_thumb.jpg" />
+    <Content Include="images\primary_store.jpg" />
+    <Content Include="images\primary_store_thumb.jpg" />
+    <Content Include="images\spec_bike_DKBROWN.png" />
+    <Content Include="images\spec_bike_DKGREY.png" />
+    <Content Include="images\spec_bike_GREEN.png" />
+    <Content Include="images\spec_bike_LTBROWN.png" />
+    <Content Include="images\spec_bike_LTGREY.png" />
+    <Content Include="images\spec_bike_none.jpg" />
+    <Content Include="images\spec_bike_ORANGE.png" />
+    <Content Include="images\spec_bike_RED.png" />
+    <Content Include="images\spec_bike_YELLOW.png" />
+    <Content Include="images\spec_boating_DKBROWN.png" />
+    <Content Include="images\spec_boating_DKGREY.png" />
+    <Content Include="images\spec_boating_none.jpg" />
+    <Content Include="images\spec_fish_AMBER.png" />
+    <Content Include="images\spec_fish_DKBROWN.png" />
+    <Content Include="images\spec_fish_DKGREY.png" />
+    <Content Include="images\spec_fish_LTBROWN.png" />
+    <Content Include="images\spec_fish_LTGREY.png" />
+    <Content Include="images\spec_fish_none.jpg" />
+    <Content Include="images\spec_golf_DKBROWN.png" />
+    <Content Include="images\spec_golf_GREEN.png" />
+    <Content Include="images\spec_golf_LTBROWN.png" />
+    <Content Include="images\spec_golf_none.jpg" />
+    <Content Include="images\spec_golf_VIOLET.png" />
+    <Content Include="images\spec_hiking_DKGREY.png" />
+    <Content Include="images\spec_hiking_green.png" />
+    <Content Include="images\spec_hiking_LTGREY.png" />
+    <Content Include="images\spec_hiking_none.jpg" />
+    <Content Include="images\spec_hunt_DKBROWN.png" />
+    <Content Include="images\spec_hunt_GREEN.png" />
+    <Content Include="images\spec_hunt_GREY.png" />
+    <Content Include="images\spec_hunt_none.jpg" />
+    <Content Include="images\spec_hunt_ORANGE.png" />
+    <Content Include="images\spec_hunt_RED.png" />
+    <Content Include="images\spec_hunt_YELLOW.png" />
+    <Content Include="images\spec_run_DKGREY.png" />
+    <Content Include="images\spec_run_GREEN.png" />
+    <Content Include="images\spec_run_LTGREY.png" />
+    <Content Include="images\spec_run_none.jpg" />
+    <Content Include="images\spec_skiing_brown.png" />
+    <Content Include="images\spec_skiing_none.jpg" />
+    <Content Include="images\spec_skiing_orange.png" />
+    <Content Include="images\spec_skiing_red.png" />
+    <Content Include="images\spec_skiing_yellow.png" />
+    <Content Include="images\spec_tennis_DKBROWN.png" />
+    <Content Include="images\spec_tennis_LTBLUE.png" />
+    <Content Include="images\spec_tennis_none.jpg" />
+    <Content Include="images\spec_tennis_ORANGE.png" />
+    <Content Include="images\spec_tennis_YELLOW.png" />
+    <Content Include="jquery-1.6.1.min.js" />
+    <Content Include="recommendation.xml" />
+    <Content Include="Save_Question.aspx" />
+    <Content Include="send_email.aspx" />
+    <Content Include="Start_Session.aspx" />
+    <Content Include="swfconfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="swfobject.js" />
+    <Content Include="Print_Results.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlashCode\.settings\com.adobe.flexbuilder.flashbridge.prefs" />
+    <Content Include="FlashCode\.settings\org.eclipse.core.resources.prefs" />
+    <Content Include="FlashCode\3d\EditedSequence\NewContainerSequence.fla" />
+    <Content Include="FlashCode\3d\pg01.fla" />
+    <Content Include="FlashCode\3d\pg01_30frames.fla" />
+    <Content Include="FlashCode\3d\pg01_Grow.fla" />
+    <Content Include="FlashCode\3d\pg02.fla" />
+    <Content Include="FlashCode\3d\pg03.fla" />
+    <Content Include="FlashCode\3d\pg04.fla" />
+    <Content Include="FlashCode\3d\pg05.fla" />
+    <Content Include="FlashCode\3d\pg08.fla" />
+    <Content Include="FlashCode\3d\pg09.fla" />
+    <Content Include="FlashCode\3d\pg11.fla" />
+    <Content Include="FlashCode\3d\pg13.fla" />
+    <Content Include="FlashCode\3d\pg14.fla" />
+    <Content Include="FlashCode\3d\ResultsContainer.fla" />
+    <Content Include="FlashCode\3d\ResultsContainer_JPGsequence.zip" />
+    <Content Include="FlashCode\3d\ResultsContainer_r1.max" />
+    <Content Include="FlashCode\flash\fla\hoyaContent.fla" />
+    <Content Include="FlashCode\flash\fla\hoyaLoader.fla" />
+    <Content Include="FlashCode\flash\fla\recomendationSample.fla" />
+    <Content Include="FlashCode\flash\lib\analytics_flash.swc" />
+    <Content Include="FlashCode\flash\lib\as3corelib.swc" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\AuxFunctions.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\Equations.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\ColorShortcuts.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\CurveModifiers.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\DisplayShortcuts.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\FilterShortcuts.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\SoundShortcuts.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\properties\TextShortcuts.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\PropertyInfoObj.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\SpecialProperty.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\SpecialPropertyModifier.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\SpecialPropertySplitter.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\Tweener.as" />
+    <Content Include="FlashCode\flash\lib\caurina\transitions\TweenListObj.as" />
+    <Content Include="FlashCode\flash\lib\map_1_20.swc" />
+    <Content Include="FlashCode\flash\lib\recomendations\Lens.as" />
+    <Content Include="FlashCode\flash\lib\recomendations\Recomender.as" />
+    <Content Include="FlashCode\flash\lib\recomendations\WSConnection.as" />
+    <Content Include="FlashCode\flash\lib\Xray_Flex2_Library_v0.5.swc" />
+    <Content Include="FlashCode\flash\src\com\hoya\controller\HoyaContentController.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\controller\HoyaLoaderController.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\model\CertVO.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\model\MoreInfoVO.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\model\ProviderVO.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\model\SpecialtyNavElementVO.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\util\TrackingUtil.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\util\XMLLoader.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\AgeClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\BadgeClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\CertClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\CertificationClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ChangeActivityClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\CheckboxClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ComplementaryClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ContentBase.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ContentClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\CorrectiveVisionClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\EmailClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\EyeSafetyClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\FeaturesClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\FooterClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\GenderClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\GlareSensitiveClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\HowMuchClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ImageViewerClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ImageViewerDescriptionClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\IndoorOutdoorClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\InfoWindowClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\IntroClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\LeisureActivitiesClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\LightSensitiveClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\MapContainer.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\MapZoomControls.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\MoreInfoButton.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\MoreInfoClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\NavArrowClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\NightDrivingClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\PrimaryClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ProviderButton.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\RecommendationsClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SpamCheckboxClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SpecialtyClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SpecialtyImageViewerClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SpecialtyNavClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SpecialtyNavTintClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SummaryClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\SummaryClipContent.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\TabButtonClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\TintLabelClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\VisionTypeClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\WhatKindClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\WhereClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\YesNoClip.as" />
+    <Content Include="FlashCode\flash\src\com\hoya\view\ZipClip.as" />
+    <None Include="Properties\PublishProfiles\ChooseMyLens.pubxml" />
+    <None Include="Properties\PublishProfiles\production.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52437</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

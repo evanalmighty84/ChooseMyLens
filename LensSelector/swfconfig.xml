@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!--dev-->
+    <serviceURL>http://63.96.3.232:83/</serviceURL>
+    <!--<couponLink>http://dev.prizelogic.com/Hoya/Coupons</couponLink>-->
+  <couponLink>http://localhost:52437/Coupons</couponLink>
+  <!--dev-->
+
+  <!--staging
+	  <serviceURL>http://choosemylens.prizelogicstaging.com/</serviceURL>
+	  <googleMapsAPI>ABQIAAAAdSULCZEVJtol7dvGnCOPVxSdstwNylb1cLn5PL2VfaFhsllvQRQw5ApcWX9LWwLoHd0i4BcbARzTFw</googleMapsAPI>
+	  <couponLink>http://choosemylens.prizelogicstaging.com/Coupons</couponLink>
+	staging-->
+
+	<!--production
+		<serviceURL>http://www.choosemylens.com/</serviceURL>
+		<googleMapsAPI>ABQIAAAAdSULCZEVJtol7dvGnCOPVxRqqvYett97_LRmX3t-WAQXp8XXvhQ7An7qQsTVVw1AWxlpFE2snh__Uw</googleMapsAPI>
+		<couponLink>http://www.choosemylens.com/Coupons</couponLink>
+	production-->
+</config>
